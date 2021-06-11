@@ -10,7 +10,7 @@ let item = {
     price:200,
     getPrice: function(){
         console.log(this);
-        // Для этой фунции окружение (контекст) === item2
+        // Для этой фунции окружение (контекст) === item
         return this.price
     },
     getName: getName,
